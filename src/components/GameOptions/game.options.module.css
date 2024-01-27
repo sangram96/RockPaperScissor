@@ -1,0 +1,27 @@
+.container {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.subContainer {
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emptyContainer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: hsl(237, 49%, 15%);
+}

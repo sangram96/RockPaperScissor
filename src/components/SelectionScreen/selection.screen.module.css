@@ -1,0 +1,13 @@
+.container {
+    padding: 135px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
